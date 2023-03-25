@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarefa 2 Programação Funcional</title>
+  </head>
+  <body>
+    <img src="assets/ufs.png">
+    <h1>Histórico Escolar</h1>
+    <h2>Informe aqui os seus dados e obtenha algumas informações da sua Grade Curricular</h2>
+    <form class="formulario">
+      <label for="ano-periodo-letivo"
+        ><div>Ano/Período Letivo</div>
+        <input type="number" step="any" id="ano-periodo-letivo" />
+      </label>
+      <label for="disciplina-curricular"
+        ><div>Disciplina</div>
+        <input type="text" id="disciplina-curricular" />
+      </label>
+      <label for="carga-horaria"
+        ><div>Carga Horária</div>
+        <input type="number" step="any" id="carga-horaria" />
+      </label>
+      <label for="frequencia-curricular"
+        ><div>Frequência</div>
+        <input type="number" step="any" id="frequencia-curricular" />
+      </label>
+      <label for="nota-curricular"
+        ><div>Nota</div>
+        <input type="" name="" step="any" id="nota-curricular" />
+      </label>
+      <div><input type="submit" value="Enviar" /></div>
+    </form>
+
+    <div>Ano/Período Letivo: <span class="a-p-l"></span></div>
+    <div>Disciplina: <span class="disciplina-codigo"></span></div>
+    <div>Carga Horária: <span class="c-h"></span></div>
+    <div>Frequência: <span class="frequencia-do-aluno"></span></div>
+    <div>Nota: <span class="nota-do-aluno"></span></div>
+
+    <div>Tempo de curso: <span class="tempo-de-curso"></span></div>
+    <div>Média geral ponderada pela CH: <span class="media-geral-ponderada"></span></div>
+    <div>Desvio padrão da média geral: <span class="desvio-padrao-media"></span></div>
+    <div>Lista de disciplinas com aprovação: <span class="disciplinas-aprovado"></span></div>
+    <div>Lista de disciplinas com reprovação: <span class="disciplinas-reprovado"></span></div>
+    <div>Carga horária total cursada: <span class="carga-horaria-total"></span></div>
+    <div>Média geral ponderada de cada departamento: <span class="media-geral-departamento"></span></div>
+
+    <script src="tarefa.js"></script>
+  </body>
+</html>
